@@ -6,7 +6,7 @@
 Summary:	Cairo Wrapper Extension
 Name:		php-%{modname}
 Version:	0.2.4
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/cairo_wrapper/
