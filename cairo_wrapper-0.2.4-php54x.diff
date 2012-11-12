@@ -1,0 +1,11 @@
+--- cairo_wrapper.c	2008-03-28 23:20:13.000000000 +0100
++++ cairo_wrapper.c.oden	2012-05-06 14:12:38.567233369 +0200
+@@ -127,7 +127,7 @@ void cairo_matrix_dtor(zend_rsrc_list_en
+ /* }}} */
+ 
+ /* {{{ cairo_wrapper_functions[] */
+-function_entry cairo_wrapper_functions[] = {
++zend_function_entry cairo_wrapper_functions[] = {
+ 	PHP_FE(cairo_image_surface_create, cairo_image_surface_create_arg_info)
+ 	PHP_FE(cairo_surface_destroy, cairo_surface_destroy_arg_info)
+ 	PHP_FE(cairo_create        , cairo_create_arg_info)
