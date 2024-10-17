@@ -9,7 +9,7 @@ Version:	0.2.4
 Release:	14
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/cairo_wrapper/
+URL:		https://pecl.php.net/package/cairo_wrapper/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Patch0:		cairo_wrapper-0.2.4-php54x.diff
 BuildRequires:	php-devel >= 3:5.2.0
